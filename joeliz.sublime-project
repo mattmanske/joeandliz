@@ -1,0 +1,34 @@
+{
+  "folders":
+  [
+    {
+      "name": "CSS",
+      "path": "/Users/Manske/Sites/JoeLizWedding/source/css"
+    },
+    {
+      "name": "JS",
+      "path": "/Users/Manske/Sites/JoeLizWedding/source/js"
+    },
+    {
+      "name": "Source",
+      "path": "/Users/Manske/Sites/JoeLizWedding/source",
+      "folder_exclude_patterns":
+      [
+        "css",
+        "js"
+      ]
+    },
+    {
+      "name": "Project",
+      "path": "/Users/Manske/Sites/JoeLizWedding",
+      "file_exclude_patterns":
+      [
+        "*.sublime-*"
+      ],
+      "folder_exclude_patterns":
+      [
+        "source"
+      ]
+    }
+  ]
+}
