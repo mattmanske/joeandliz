@@ -8,6 +8,8 @@ gem "sass", "~> 3.2.9"
 gem "compass", "~> 0.12.2"
 gem "coffee-script", "~> 2.2.0"
 
+gem 'middleman-gh-pages'
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
