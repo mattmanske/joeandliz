@@ -4,3 +4,74 @@
 @import "helpers/fonts"
 
 @import "variables"
+@import "globals"
+
+body
+  text-align: center
+
+  > header
+    width: 100%
+    padding: 28.125% 0
+    position: relative
+    background-size: cover
+    background-position: 50% center
+    background-image: image-url('joeandliz2.jpg')
+
+    img
+      top: 50%
+      left: 50%
+      width: 120px
+      height: auto
+      opacity: 0.67
+      position: absolute
+      margin: -60px 0 0 -60px
+      @include single-transition()
+
+      &:hover
+        opacity: 1
+        cursor: pointer
+
+  > footer
+    width: 100%
+    color: $white
+    padding: 3em 0
+    background: $blue image-url('bgfloral.png') center center repeat
+    -webkit-font-smoothing: antialiased
+
+    li
+      margin: 1em 0
+
+    a
+      color: $white
+
+      &:hover
+        color: $gray
+
+  > section
+    margin: $padder 0
+
+    &#ceremony 
+      margin-top: $padder * 1.1
+
+      > h2:before
+        left: 0
+        top: -65px
+        content: ''
+        width: 100%
+        height: 129px
+        position: absolute
+        background: image-url('whitelogo.png') center center no-repeat
+
+    &#reception
+
+      p a
+        top: 3px
+        left: 9px
+        opacity: 0.33
+        position: relative
+
+        &:hover
+          opacity: 0.67
+
+    &#ceremony, &#reception
+      @extend .section-block 

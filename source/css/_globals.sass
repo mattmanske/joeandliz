@@ -1,0 +1,115 @@
+*
+  color: $gray
+  box-sizing: border-box
+
+html
+  overflow-y: scroll
+  overflow-x: hidden
+  font-family: 'ProximaNovaRegular'
+  -webkit-font-smoothing: antialiased
+
+h1, h2, h3, h4, h5, h6
+  color: $grayDark
+  letter-spacing: 0.1em
+  font-family: 'ColumbiaTitlingLight'
+  -webkit-font-smoothing: antialiased
+
+  .amp
+    color: $gray
+    margin-left: 0.25em
+    margin-right: 0.25em
+
+h1
+  font-size: 300%
+
+h2
+  font-size: 167%
+
+h1 ~ h2
+  color: $gray
+
+.amp
+  font-family: Baskerville, Palatino, "Book Antiqua", serif
+  font-style: italic
+
+a
+  color: $brown
+  position: relative
+  text-decoration: none
+  padding: 0.1em 0
+  border-bottom: 1px solid
+  text-transform: uppercase
+  font-family: 'ColumbiaTitlingLight'
+  @include single-transition()
+  
+  &:before
+    left: -2.33em
+    text-align: right
+
+  &:after
+    right: -2.33em
+    text-align: left
+
+  &:before, &:after
+    content: '>>>'
+    position: absolute
+    @include single-transition()
+
+  &:hover
+    padding: 0.1em 0.4em
+
+    &:before, &:after
+      opacity: 0.67
+
+  &[href^="http"]
+    padding: 0
+    border: none
+
+    &:before, &:after
+      content: none
+
+p
+  font-size: 133%
+  line-height: 167%
+  padding: 0.55em 0 0.67em
+
+sub
+  opacity: 0.67
+  font-size: small
+  vertical-align: subscript
+
+.section-block
+  z-index: 1
+  max-width: 45em
+  background: $white
+  margin-left: auto
+  margin-right: auto
+  position: relative
+  padding: $padder*0.85 $padder/2
+  border: 1px solid $grayLight
+
+  &:before
+    left: 100%
+
+  &:after
+    right: 100%
+
+  &:before, &:after
+    z-index: 0
+    content: ''
+    height: 1px
+    width: 999%
+    top: $padder * 1.25
+    position: absolute
+    border-top: 1px solid $grayLight
+
+  aside
+    left: 0
+    width: 100%
+    bottom: 0.5em
+    font-style: italic
+    position: absolute
+
+    &:before, &:after
+      content: '*'
+      margin: 0 0.5em
