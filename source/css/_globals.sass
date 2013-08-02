@@ -3,8 +3,6 @@
   box-sizing: border-box
 
 html
-  overflow-y: scroll
-  overflow-x: hidden
   font-family: 'ProximaNovaRegular'
   -webkit-font-smoothing: antialiased
 
@@ -74,9 +72,14 @@ p
   padding: 0.55em 0 0.67em
 
 sub
-  opacity: 0.67
+  color: $grayLight
   font-size: small
   vertical-align: subscript
+
+sup
+  color: $grayLight
+  font-size: xx-large
+  vertical-align: middle
 
 .section-block
   z-index: 1
@@ -103,13 +106,13 @@ sub
     position: absolute
     border-top: 1px solid $grayLight
 
-  aside
-    left: 0
-    width: 100%
-    bottom: 0.5em
-    font-style: italic
-    position: absolute
+aside
+  left: 0
+  width: 100%
+  bottom: 0.5em
+  font-style: italic
+  position: absolute
 
-    &:before, &:after
-      content: '*'
-      margin: 0 0.5em
+  &:before, &:after
+    content: '*'
+    margin: 0 0.5em
