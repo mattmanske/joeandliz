@@ -38,7 +38,7 @@ a
   position: relative
   text-decoration: none
   padding: 0.1em 0
-  border-bottom: 1px solid
+  border-bottom: 1px solid rgba($brown, 0)
   text-transform: uppercase
   font-family: 'ColumbiaTitlingLight'
   @include single-transition()
@@ -58,6 +58,7 @@ a
 
   &:hover
     padding: 0.1em 0.4em
+    border-bottom-color: rgba($brown, 0.67)
 
     &:before, &:after
       opacity: 0.67
@@ -68,6 +69,14 @@ p > a, span > a, h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, a.rollovers
 
   &:before, &:after
     content: none
+
+  &:hover
+    padding: 0.1em 0
+
+  &[href*="tel:"]
+    color: inherit
+    font-size: inherit
+    font-family: inherit
 
 a.rollovers
   position: relative

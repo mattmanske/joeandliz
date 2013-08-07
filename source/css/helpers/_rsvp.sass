@@ -13,9 +13,64 @@ form
     @extend h5
 
   input, textarea
+    color: $brown
+    font-size: 0.9em
     margin: 0 auto 1.75em
-    padding: 0.75em 0.85em
-    border: 1px solid $gray !important
+    padding: 0.65em 0.75em 0.55em
+    border: 1px solid $grayLight !important
+    font-family: 'ProximaNovaRegular', sans
 
   button
-    @extend a
+    color: $white
+    border: none
+    font-size: 1.15em
+    background: $brown
+    position: relative
+    text-decoration: none
+    text-transform: uppercase
+    padding: 0.67em 1.25em 0.5em
+    font-family: 'ColumbiaTitlingLight'
+    -webkit-font-smoothing: antialiased
+    @include single-transition()
+    
+    &:before
+      left: 0
+      margin-right: 1em
+      text-align: right
+
+    &:after
+      right: 0
+      margin-left: 1em
+      text-align: left
+
+    &:before, &:after
+      color: $white
+      content: '>>>'
+      position: relative
+      @include single-transition()
+
+    &:hover
+      cursor: pointer
+
+      &:before
+        margin-right: 1.4em
+
+      &:after
+        margin-left: 1.4em
+
+
+// Placeholder Styling
+
+$placeholder: darken($grayLight, 10%)
+
+::-webkit-input-placeholder
+  color: $placeholder
+
+\:-moz-placeholder
+  color: $placeholder
+
+::-moz-placeholder
+  color: $placeholder
+
+\:-ms-input-placeholder
+  color: $placeholder
