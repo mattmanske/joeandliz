@@ -22,14 +22,15 @@ html
 
   body class="#{page_classes}"
 
-    header
-      == partial 'layouts/header'
+    == partial 'layouts/header'
 
-    == yield
+    #main-section
+      == yield
 
     footer
       == partial 'layouts/footer'
 
     script src="//maps.googleapis.com/maps/api/js?sensor=true"
+    script src="//cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"
 
     == javascript_include_tag  "app"

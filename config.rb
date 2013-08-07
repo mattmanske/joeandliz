@@ -1,3 +1,4 @@
+
 ###
 # Compass
 ###
@@ -56,6 +57,23 @@ set :css_dir, 'css'
 set :js_dir, 'js'
 
 set :images_dir, 'img'
+
+@bridalparty = [
+  {:name => "Jaclyn Poeschl", :position => "Maid of Honor", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+  {:name => "Matt Manske", :position => "Best Man", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+
+  {:name => "Angie Nygren", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+  {:name => "Joe Hancox", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+
+  {:name => "Andrea McCarthy", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+  {:name => "Chad Peterson", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+
+  {:name => "Abbie Wehner", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+  {:name => "Simon Griesbach", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+
+  {:name => "Jodi Klagos", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+  {:name => "Brandon Chiero", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("joeandliz.jpg")},
+]
 
 # Build-specific configuration
 configure :build do

@@ -15,7 +15,7 @@ body
     position: relative
     background-size: cover
     background-position: 50% center
-    background-image: image-url('joeandliz2.jpg')
+    background-image: image-url('joeandliz.jpg')
 
     img
       top: 50%
@@ -31,51 +31,63 @@ body
         opacity: 1
         cursor: pointer
 
+  > .header
+    top: 9em
+    height: 12em
+    position: relative
+    border-top: 1px solid $grayLight
+    @extend .circled-logo
+
   > footer
     width: 100%
     color: $white
     padding: 3em 0
+    margin-top: 2em
     position: relative
     background: $blue image-url('bgfloral.png') center center repeat
     -webkit-font-smoothing: antialiased
 
-    li
-      margin: 1em 0
+    a.rollovers
+      margin: 1.5em 0 2.25em
 
-    a
-      color: $white
+    ul
+      margin-bottom: 2em
 
-      &:hover
+      li
+        margin: 1em 0
+
+      a
         color: $gray
+
+        &:hover
+          color: $white
 
   #main-section
     overflow: hidden
 
     > section
-      margin: $padder 0
+      margin: $padder / 2 auto
+      max-width: 45em
 
       &#ceremony 
         margin-top: $padder * 1.1
 
-        > h2:before
-          left: 0
-          top: -65px
-          content: ''
-          width: 100%
-          height: 129px
-          position: absolute
-          background: image-url('whitelogo.png') center center no-repeat
+        > h2
+          @extend .circled-logo
 
       &#reception
 
-        p a
-          top: 3px
-          opacity: 0.33
-          margin-left: 7px
-          position: relative
-
-          &:hover
-            opacity: 0.67
+        a.rollovers
+          margin-left: -0.85em
 
       &#ceremony, &#reception
-        @extend .section-block 
+        @extend .section-block
+
+      &#registry
+
+        a.rollovers
+          margin-top: 2em
+
+@import "helpers/bridal-slider"
+
+@import "helpers/rsvp"

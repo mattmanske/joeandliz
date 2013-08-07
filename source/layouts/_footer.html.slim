@@ -1,13 +1,15 @@
-h6 footer
+a.rollovers href="/"
+  = image_tag("logo_footer.png")
+  = image_tag("logo_footer_RO.png")
 
 ul
   li
-    a href="#" Get a Hotel
+    = link_to 'Get a Hotel', '/hotels.html'
   li
-    a href="#" Call a Cab
+    = link_to 'Call a Cab', '/cabs.html'
   li
-    a href="#" Registry
+    = link_to 'Registry', '/registry.html'
   li
-    a href="#" Contact Us
+    = mail_to 'joe@polymathic.me', 'Contact Us' 
 
 aside Site design by the Groom. Site developed by the Best Man.

@@ -23,6 +23,9 @@ h1
 h2
   font-size: 167%
 
+h3
+  font-size: 133%
+
 h1 ~ h2
   color: $gray
 
@@ -59,12 +62,37 @@ a
     &:before, &:after
       opacity: 0.67
 
-  &[href^="http"]
-    padding: 0
-    border: none
+p > a, span > a, h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a, a.rollovers
+  padding: 0
+  border: none
 
-    &:before, &:after
-      content: none
+  &:before, &:after
+    content: none
+
+a.rollovers
+  position: relative
+  @include inline-block()
+
+  img
+    top: 0
+    position: relative
+    @include single-transition()
+
+  img:first-child
+    left: 25%
+    opacity: 1
+
+  img:last-child
+    left: -25%
+    opacity: 0
+
+  &:hover
+
+    img:first-child
+      opacity: 0
+
+    img:last-child
+      opacity: 1
 
 p
   font-size: 133%
@@ -81,12 +109,18 @@ sup
   font-size: xx-large
   vertical-align: middle
 
+.circled-logo:after
+  left: 0
+  top: -65px
+  content: ''
+  width: 100%
+  height: 129px
+  position: absolute
+  background: image-url('logo.png') center center no-repeat
+
 .section-block
   z-index: 1
-  max-width: 45em
   background: $white
-  margin-left: auto
-  margin-right: auto
   position: relative
   padding: $padder*0.85 $padder/2
   border: 1px solid $grayLight

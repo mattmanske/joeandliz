@@ -1,0 +1,21 @@
+
+section#bridalparty data-showing="0"
+
+  - @bridalparty.each_with_index do |person, i|
+    
+    .slide data-slide="#{i+1}"
+      .photo style="background-image:url(#{person[:photo]})"
+
+      h3 = person[:name]
+
+      p
+        = person[:position]
+        br
+        = person[:title]
+
+  ul.headshot-icons
+    - @bridalparty.each_with_index do |person, i|
+      li style="background-image:url(#{person[:photo]})" data-slide="#{i+1}"
+
+  a href="javascript:;" Meet the Bridal Party
+
