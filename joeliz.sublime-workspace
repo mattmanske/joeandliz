@@ -4,12 +4,20 @@
 		"selected_items":
 		[
 			[
-				"back",
-				"background-image"
+				"mar",
+				"margin-top"
 			],
 			[
-				"mar",
-				"margin-left"
+				"trans",
+				"transform3d	compass"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-image"
 			],
 			[
 				"font",
@@ -42,10 +50,6 @@
 			[
 				"pad",
 				"padding-top"
-			],
-			[
-				"trans",
-				"transition	compass"
 			],
 			[
 				"tra",
@@ -86,10 +90,6 @@
 			[
 				"wid",
 				"width"
-			],
-			[
-				"in",
-				"inline"
 			],
 			[
 				"font-smo",
@@ -196,22 +196,28 @@
 	},
 	"file_history":
 	[
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_rsvp.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_rsvp.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/registry.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/rsvp.html.slim_",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/hotels.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_footer.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/cabs.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/config.rb",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_bridal-slider.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
 		"/Users/Manske/Sites/Society-Style/config.rb",
-		"/Users/Manske/Sites/JoeLizWedding/config.rb",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
 		"/Users/Manske/Sites/Society-Style/source/stylesheets/public/_elements.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
 		"/Users/Manske/Sites/Society-Style/source/stylesheets/public/_globals.sass",
 		"/Users/Manske/Sites/JoeLizWedding/Gemfile",
 		"/Users/Manske/Sites/JoeLizWedding/Rakefile",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_footer.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_fonts.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_variables.sass",
 		"/Users/Manske/Sites/Society/app/assets/stylesheets/society/public/components/_input-groups.css.sass",
 		"/Users/Manske/Sites/Society/app/assets/stylesheets/society/public/pages/_event-lists.css.sass",
@@ -317,13 +323,7 @@
 		"/Users/Manske/Sites/Vocora/Boxfile",
 		"/Users/Manske/Sites/Vocora/wordpress/wp-content/themes/vocora/plugins/login-with-ajax/widget.css",
 		"/Users/Manske/Sites/Vocora/plugins/buddypress/bp-forums/bbpress/bb-includes/backpress/functions.formatting.php",
-		"/Users/Manske/Sites/Vocora/config/wp-config/wp-config-production.php",
-		"/Users/Manske/Sites/Vocora/config/wp-config/wp-config-staging.php",
-		"/Users/Manske/Sites/Vocora/vocora/js/backbone/templates/home_block.jst.html",
-		"/Users/Manske/Sites/Vocora/vocora/js/vendor/less.1.3.1.js",
-		"/Users/Manske/Sites/Vocora/wordpress/wp-includes/http.php",
-		"/Users/Manske/Sites/Vocora/vocora/partials/listed.php.slim",
-		"/Users/Manske/Sites/Vocora/wordpress/wp-admin/edit-form-advanced.php"
+		"/Users/Manske/Sites/Vocora/config/wp-config/wp-config-production.php"
 	],
 	"find":
 	{
@@ -334,6 +334,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"",
 			"/Users/Manske/Sites/Vocora/plugins/front-end-editor",
 			"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login",
 			"",
@@ -365,6 +366,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"whitelogo.png",
+			":line1 => \"Fixer of the injured\", :line2 => \"Curator of Spontanious Games\"",
 			"image_url",
 			"image_path",
 			"image_path(\"joeandliz2.jpg\")",
@@ -490,9 +493,7 @@
 			"autologin",
 			"auto",
 			".js",
-			"lwa-links-register-inline",
-			"locate_template_url",
-			".js"
+			"lwa-links-register-inline"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -500,6 +501,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"logo.png",
+			":title => \"[insert line here]\"",
 			"image_path",
 			"image_url",
 			"\"joeandliz2.jpg\"",
