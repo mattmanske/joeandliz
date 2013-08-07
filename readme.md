@@ -49,7 +49,7 @@ $ git commit -am "Leave a message about what you did..."
 ```
 Pull down any changes that might have been loaded remotely in the meantime.
 ``` shell
-$ git pul
+$ git pull
 ```
 
 And push your code up to GitHub.
@@ -61,7 +61,7 @@ $ git push
 
 Once you have the site ready to puublish, you need to build and deploy it to GitHub pages.
 ``` shell
-$ rake deploy
+$ rake publish
 ```
 
 That's it! [Joe & Liz](http://polymatt.github.io/joeandliz)
