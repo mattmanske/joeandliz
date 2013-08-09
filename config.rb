@@ -59,20 +59,20 @@ set :js_dir, 'js'
 set :images_dir, 'img'
 
 @bridalparty = [
-  {:name => "Jaclyn Poeschl", :position => "Maid of Honor", :title => "[insert line here]", :photo => image_path("jaclyn.jpg"), :thumb => image_path("jaclyn_mini.jpg")},
-  {:name => "Matt Manske", :position => "Best Man", :title => "[insert line here]", :photo => image_path("matt.jpg"), :thumb => image_path("matt_mini.jpg")},
+  {:name => "Jaclyn Poeschl", :position => "Maid of Honor", :title => "[insert line here]", :photo => image_path("jaclyn.jpg"), :retina => image_path("jaclyn@2x.jpg")},
+  {:name => "Matt Manske", :position => "Best Man", :title => "[insert line here]", :photo => image_path("matt.jpg"), :retina => image_path("matt@2x.jpg")},
 
-  {:name => "Angie Nygren", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("angie.jpg"), :thumb => image_path("angie_mini.jpg")},
-  {:name => "Joe Hancox", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("joe.jpg"), :thumb => image_path("joe_mini.jpg")},
+  {:name => "Angie Nygren", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("angie.jpg"), :retina => image_path("angie@2x.jpg")},
+  {:name => "Joe Hancox", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("joe.jpg"), :retina => image_path("joe@2x.jpg")},
 
-  {:name => "Andrea McCarthy", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("andrea.jpg"), :thumb => image_path("andrea_mini.jpg")},
-  {:name => "Chad Peterson", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("chad.jpg"), :thumb => image_path("chad_mini.jpg")},
+  {:name => "Andrea McCarthy", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("andrea.jpg"), :retina => image_path("andrea@2x.jpg")},
+  {:name => "Chad Peterson", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("chad.jpg"), :retina => image_path("chad@2x.jpg")},
 
-  {:name => "Abbie Wehner", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("abbie.jpg"), :thumb => image_path("abbie_mini.jpg")},
-  {:name => "Simon Griesbach", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("simon.jpg"), :thumb => image_path("simon_mini.jpg")},
+  {:name => "Abbie Wehner", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("abbie.jpg"), :retina => image_path("abbie@2x.jpg")},
+  {:name => "Simon Griesbach", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("simon.jpg"), :retina => image_path("simon@2x.jpg")},
 
-  {:name => "Jodi Klagos", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("jodi.jpg"), :thumb => image_path("jodi_mini.jpg")},
-  {:name => "Brandon Chiero", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("brandon.jpg"), :thumb => image_path("brandon_mini.jpg")},
+  {:name => "Jodi Klagos", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("jodi.jpg"), :retina => image_path("jodi@2x.jpg")},
+  {:name => "Brandon Chiero", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("brandon.jpg"), :retina => image_path("brandon@2x.jpg")},
 ]
 
 # Build-specific configuration
