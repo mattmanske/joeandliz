@@ -6,17 +6,33 @@
 @import "variables"
 @import "globals"
 
+.only-small
+  display: none
+
+.no-small
+  display: inherit
+  
 body
   text-align: center
 
   > header
     width: 100%
-    padding: 28.125% 0
     position: relative
     margin-bottom: 7em
     background-size: cover
     background-position: 50% center
-    background-image: image-url('joeandliz.jpg')
+
+    &.no-small
+      padding: 28.125% 0
+      background-image: image-url('joeandliz.jpg')
+
+    &.only-small
+      padding: 8% 0
+      background-repeat: repeat
+      background-image: image-url('bgfloral.png')
+
+    a
+      color: $white
 
     img
       top: 50%
@@ -42,8 +58,8 @@ body
   > footer
     width: 100%
     color: $white
-    padding: 3em 0
     margin-top: 2em
+    padding: 3em 0 5em
     position: relative
     background: $blue image-url('bgfloral.png') center center repeat
     -webkit-font-smoothing: antialiased
@@ -62,6 +78,15 @@ body
 
         &:hover
           color: $white
+
+    aside
+      opacity: 0.75
+      bottom: 0.75em
+      font-size: 95%
+      line-height: 125%
+
+      &:before, &:after
+        display: none
 
   #main-section
     overflow: hidden
@@ -92,3 +117,5 @@ body
 @import "helpers/bridal-slider"
 
 @import "helpers/rsvp"
+
+@import "breakpoint"

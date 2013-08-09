@@ -1,5 +1,8 @@
 $ ->
 
+  $('#logo > h1').fitText(1.2, {minFontSize: '36px', maxFontSize: '50px'})
+  $('#logo > h2').fitText(2.0, {minFontSize: '20px', maxFontSize: '28px'})
+
   $('#bridalparty > a').click (e) ->
     $('#bridalparty').attr 'data-showing', 1
 

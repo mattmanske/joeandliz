@@ -19,12 +19,15 @@ form
     padding: 0.65em 0.75em 0.55em
     border: 1px solid $grayLight !important
     font-family: 'ProximaNovaRegular', sans
+    -webkit-appearance: box
+    @include appearance(none)
+    @include border-radius(0)
 
   button
     color: $white
     border: none
     font-size: 1.15em
-    background: $brown
+    background: $gray
     position: relative
     text-decoration: none
     text-transform: uppercase
@@ -32,6 +35,9 @@ form
     font-family: 'ColumbiaTitlingLight'
     -webkit-font-smoothing: antialiased
     @include single-transition()
+
+    .no-small
+      color: inherit
     
     &:before
       left: 0

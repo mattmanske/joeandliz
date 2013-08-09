@@ -196,23 +196,27 @@
 	},
 	"file_history":
 	[
-		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_bridal-slider.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/_breakpoint.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/fittext.js",
+		"/Users/Manske/Sites/Society/app/assets/javascripts/dependencies.coffee",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
+		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_footer.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/vendor/_breakpoint.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_bridal-slider.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/config.rb",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_rsvp.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_rsvp.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/hotels.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
 		"/Users/Manske/Sites/JoeLizWedding/readme.md",
 		"/Users/Manske/Sites/JoeLizWedding/source/registry.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/rsvp.html.slim_",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_footer.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/cabs.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
 		"/Users/Manske/Sites/Society-Style/config.rb",
 		"/Users/Manske/Sites/Society-Style/source/stylesheets/public/_elements.sass",
 		"/Users/Manske/Sites/Society-Style/source/stylesheets/public/_globals.sass",
@@ -319,11 +323,7 @@
 		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/hybridauth/Hybrid/Provider_Model.php",
 		"/Users/Manske/Sites/Vocora/wordpress/wp-login.php",
 		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/wp-social-login.php",
-		"/Users/Manske/Sites/Vocora/plugins/json-api/json-api.php",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/includes/widgets/wsl.auth.widget.php",
-		"/Users/Manske/Sites/Vocora/Boxfile",
-		"/Users/Manske/Sites/Vocora/wordpress/wp-content/themes/vocora/plugins/login-with-ajax/widget.css",
-		"/Users/Manske/Sites/Vocora/plugins/buddypress/bp-forums/bbpress/bb-includes/backpress/functions.formatting.php"
+		"/Users/Manske/Sites/Vocora/plugins/json-api/json-api.php"
 	],
 	"find":
 	{
@@ -598,6 +598,10 @@
 		"selected_items":
 		[
 			[
+				"foo",
+				"Source/layouts/_footer.html.slim"
+			],
+			[
 				"inde",
 				"Source/index.html.slim"
 			],
@@ -804,10 +808,6 @@
 			[
 				"voco",
 				"Javascript/vocora.coffee"
-			],
-			[
-				"foo",
-				"Vocora/footer.php.slim"
 			],
 			[
 				"singl",
