@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px)
+@media only screen and (max-width: 525px)
   
   .no-small
     display: none
@@ -47,10 +47,13 @@
           padding-bottom: 6em !important
 
     section#bridalparty
+      padding-left: 0 !important
+      padding-right: 0 !important
 
       > a
         line-height: 125%
         border-bottom-width: 0
+        @include single-transition($duration: 0.33s)
 
         &:before, &:after
           top: 0
@@ -58,12 +61,30 @@
         &:after
           right: -0.9em
 
+      .slide
+        top: 0
+        left: 0
+        width: 100%
+        padding: 0 1.5em
+
+        .photo
+          width: 50%
+          padding: 25% 0
+
       .headshot-icons 
         margin-left: 0.1em
 
         li
-          width: 18% !important
-          padding: 9% 0 !important
+          margin-right: 0.25em
+          width: 8% !important
+          padding: 4% 0 !important
+          @include single-transition($duration: 0.33s)
+
+      &[data-showing="0"]
+
+        li
+          width: 16% !important
+          padding: 8% 0 !important
 
     form
 

@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"font",
-				"font-family"
+				"mar",
+				"margin-bottom"
 			],
 			[
-				"mar",
-				"margin-top"
+				"font",
+				"font-family"
 			],
 			[
 				"trans",
@@ -196,26 +196,26 @@
 	},
 	"file_history":
 	[
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/_breakpoint.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/js/fittext.js",
-		"/Users/Manske/Sites/Society/app/assets/javascripts/dependencies.coffee",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
-		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_footer.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/vendor/_breakpoint.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_bridal-slider.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/config.rb",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_rsvp.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_rsvp.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/_breakpoint.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_footer.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/fittext.js",
+		"/Users/Manske/Sites/Society/app/assets/javascripts/dependencies.coffee",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/vendor/_breakpoint.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/config.rb",
 		"/Users/Manske/Sites/JoeLizWedding/source/hotels.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/readme.md",
 		"/Users/Manske/Sites/JoeLizWedding/source/registry.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/rsvp.html.slim_",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/cabs.html.slim",
 		"/Users/Manske/Sites/Society-Style/config.rb",
 		"/Users/Manske/Sites/Society-Style/source/stylesheets/public/_elements.sass",
@@ -550,6 +550,11 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"sheets":
+			[
+			]
 		}
 	],
 	"incremental_find":
@@ -569,11 +574,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":

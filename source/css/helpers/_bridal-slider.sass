@@ -5,39 +5,37 @@ section#bridalparty
 
   > a
     opacity: 0
+    max-height: 0
     font-size: 145%
-    @include single-transition()
+    @include single-transition($duration: 1s)
 
   .headshot-icons 
     margin: 2em auto
 
     li
-      width: 2%
-      padding: 1% 0
+      width: 3%
+      padding: 1.5% 0
       overflow: hidden
       position: relative
-      margin-right: 0.1em
+      margin-right: 0.5em
       margin-bottom: 0.1em
       border-radius: 100em
-      background-size: cover
+      background-size: 0
       background-color: $grayLight
       background-repeat: no-repeat
-      @include single-transition($duration: 1s)
+      @include transition(all 1.5s ease-in-out, background-color 0.5s ease-in-out)
       @include inline-block()
-
-      &:nth-child(odd)
-        background-position: center 500%
-
-      &:nth-child(even)
-        background-position: center -500%
 
       &:hover
         cursor: pointer
 
   .slide
+    top: 0
     width: 100%
-    max-height: 0em
+    opacity: 0
+    max-height: 20em
     overflow: hidden
+    position: absolute
 
     .photo
       width: 20%
@@ -53,6 +51,10 @@ section#bridalparty
 
     > a
       opacity: 1
+      max-height: 5em
+
+    .slide
+      max-height: 0  
 
     .headshot-icons 
       margin: 2em auto
@@ -61,15 +63,18 @@ section#bridalparty
         width: 6%
         padding: 3% 0
         margin-right: 0.25em
-        background-position: center center
+        background-size: cover
 
 @for $i from 1 through 12
 
   section#bridalparty[data-showing="#{$i}"]
 
     .slide
-      max-height: 0
-      @include single-transition($duration: 2s)
+      @include single-transition($duration: 1s)
 
     .slide[data-slide="#{$i}"]
-      max-height: 100em
+      opacity: 1
+      position: relative
+
+    .headshot-icons li[data-slide="#{$i}"]
+      background-color: $gray
