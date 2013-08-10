@@ -58,23 +58,6 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
-@bridalparty = [
-  {:name => "Jaclyn Poeschl", :position => "Maid of Honor", :title => "[insert line here]", :photo => image_path("jaclyn.jpg"), :retina => image_path("jaclyn@2x.jpg")},
-  {:name => "Matt Manske", :position => "Best Man", :title => "[insert line here]", :photo => image_path("matt.jpg"), :retina => image_path("matt@2x.jpg")},
-
-  {:name => "Angie Nygren", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("angie.jpg"), :retina => image_path("angie@2x.jpg")},
-  {:name => "Joe Hancox", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("joe.jpg"), :retina => image_path("joe@2x.jpg")},
-
-  {:name => "Andrea McCarthy", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("andrea.jpg"), :retina => image_path("andrea@2x.jpg")},
-  {:name => "Chad Peterson", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("chad.jpg"), :retina => image_path("chad@2x.jpg")},
-
-  {:name => "Abbie Wehner", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("abbie.jpg"), :retina => image_path("abbie@2x.jpg")},
-  {:name => "Simon Griesbach", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("simon.jpg"), :retina => image_path("simon@2x.jpg")},
-
-  {:name => "Jodi Klagos", :position => "Bridesmaid", :title => "[insert line here]", :photo => image_path("jodi.jpg"), :retina => image_path("jodi@2x.jpg")},
-  {:name => "Brandon Chiero", :position => "Groomsman", :title => "[insert line here]", :photo => image_path("brandon.jpg"), :retina => image_path("brandon@2x.jpg")},
-]
-
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

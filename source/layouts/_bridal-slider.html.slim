@@ -1,21 +1,22 @@
 
 section#bridalparty data-showing="0"
 
-  - @bridalparty.each_with_index do |person, i|
+  - data.party.each_with_index do |person, i|
     
     .slide data-slide="#{i+1}"
-      .photo style="background-image:url(#{person[:photo]})" data-retina="#{person[:retina]}"
+      .photo style="background-image:url(#{image_path(person['photo'])})"
 
-      h3 = person[:name]
+      h3 = person['name']
 
       p
-        = person[:position]
+        = person['position']
         br
-        = person[:title]
+        = person['description']
 
   ul.headshot-icons
-    - @bridalparty.each_with_index do |person, i|
-      li style="background-image:url(#{person[:photo]})" data-retina="#{person[:retina]}" data-slide="#{i+1}"
+
+    - data.party.each_with_index do |person, i|
+      li style="background-image:url(#{image_path(person['photo'])})" data-slide="#{i+1}"
 
   a href="javascript:;" 
     | Meet the 
