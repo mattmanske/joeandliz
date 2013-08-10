@@ -92,5 +92,5 @@ configure :build do
   set :relative_links, true
 
   # Or use a different image path
-  # set :http_path, "/Content/images/"
+  set :http_path, "/joeandliz/img/"
 end

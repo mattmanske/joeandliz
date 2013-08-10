@@ -8,6 +8,30 @@
 				"margin-bottom"
 			],
 			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
 				"font",
 				"font-family"
 			],
@@ -16,24 +40,12 @@
 				"transform3d	compass"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
-				"back",
-				"background-image"
-			],
-			[
 				"wp_enqu",
 				"wp_enqueue_script"
 			],
 			[
 				"is_in",
 				"is_int"
-			],
-			[
-				"bac",
-				"background"
 			],
 			[
 				"margin",
@@ -196,22 +208,28 @@
 	},
 	"file_history":
 	[
-		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_bridal-slider.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_rsvp.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_rsvp.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/_breakpoint.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_list.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/list.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_rsvp.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_retina.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_rsvp.sass",
+		"/Users/Manske/Sites/JoeLizWedding/config.rb",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_fonts.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/_breakpoint.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_bridal-slider.sass",
+		"/Users/Manske/Sites/Society/source/javascripts/vendor/jquery.js",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/vendor/jquery.js",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/fittext.js",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_footer.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/js/fittext.js",
 		"/Users/Manske/Sites/Society/app/assets/javascripts/dependencies.coffee",
-		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/vendor/_breakpoint.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/config.rb",
 		"/Users/Manske/Sites/JoeLizWedding/source/hotels.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/readme.md",
 		"/Users/Manske/Sites/JoeLizWedding/source/registry.html.slim",
@@ -222,7 +240,6 @@
 		"/Users/Manske/Sites/Society-Style/source/stylesheets/public/_globals.sass",
 		"/Users/Manske/Sites/JoeLizWedding/Gemfile",
 		"/Users/Manske/Sites/JoeLizWedding/Rakefile",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_fonts.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_variables.sass",
 		"/Users/Manske/Sites/Society/app/assets/stylesheets/society/public/components/_input-groups.css.sass",
 		"/Users/Manske/Sites/Society/app/assets/stylesheets/society/public/pages/_event-lists.css.sass",
@@ -318,12 +335,7 @@
 		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/hybridauth/Hybrid/Providers/Twitter.php",
 		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/includes/services/wsl.authentication.php",
 		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/hybridauth/Hybrid/Provider_Model_OAuth2.php",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/includes/widgets/wsl.notices.php",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/hybridauth/Hybrid/Provider_Adapter.php",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/hybridauth/Hybrid/Provider_Model.php",
-		"/Users/Manske/Sites/Vocora/wordpress/wp-login.php",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/wp-social-login.php",
-		"/Users/Manske/Sites/Vocora/plugins/json-api/json-api.php"
+		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/includes/widgets/wsl.notices.php"
 	],
 	"find":
 	{
@@ -366,6 +378,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			", :thumb =>",
+			"circled-logo",
+			"circle-top",
+			"url",
 			".jpg\")",
 			"image_path(\"",
 			"whitelogo.png",
@@ -489,11 +505,7 @@
 			"invitation",
 			"reveal",
 			"secondary",
-			"lwaAjax",
-			"status",
-			"registration",
-			"autologin",
-			"auto"
+			"lwaAjax"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -501,6 +513,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			", :retina => image_path(\"@2x.jpg\"), :thumb =>",
 			"\"",
 			"",
 			"logo.png",
@@ -550,11 +563,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -574,18 +582,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -609,6 +610,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"lay",
+				"Source/layouts/layout.slim"
+			],
 			[
 				"foo",
 				"Source/layouts/_footer.html.slim"
@@ -1116,10 +1121,6 @@
 			[
 				"too",
 				"Web Workers/tools.js"
-			],
-			[
-				"webwork",
-				"Web Workers/pictureProcessor.js"
 			]
 		],
 		"width": 0.0
