@@ -20,8 +20,12 @@ form
     border: 1px solid $grayLight !important
     font-family: 'ProximaNovaRegular', sans
     -webkit-appearance: box
+    @include single-transition()
     @include appearance(none)
     @include border-radius(0)
+
+    &[disabled]
+      color: lighten($gray, 10%)
 
   button
     color: $white
@@ -34,7 +38,7 @@ form
     padding: 0.67em 1.25em 0.5em
     font-family: 'ColumbiaTitlingLight'
     -webkit-font-smoothing: antialiased
-    @include single-transition()
+    @include single-transition($duration: 1s)
 
     .no-small
       color: inherit
@@ -64,6 +68,33 @@ form
       &:after
         margin-left: 1.4em
 
+    &.loading
+      background-color: $grayLight
+
+    &.error
+      background-color: red
+
+      &:before, &:after
+        content: '!!!'
+
+    &.success
+      background-color: lighten($blue, 35%)
+      padding: 0.67em 0em 0.5em
+
+      &:before, &:after
+        width: 0
+        opacity: 0
+
+    &.success, &.error
+
+      &:hover
+        cursor: default
+
+      &:before
+        margin-right: 1em
+
+      &:after
+        margin-left: 1em
 
 // Placeholder Styling
 

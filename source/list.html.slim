@@ -1,0 +1,16 @@
+table
+  tr
+    th #
+    th Code
+    th Email
+    th Who
+    th Message
+
+
+coffee:
+  list = new Firebase('https://joeandliz.firebaseIO.com/');
+  list.on 'value', (snapshot) ->
+    count = 0
+    for id, entry of snapshot.val()
+      count++
+      $('table tbody').append("<tr><td>#{count}</td><td>#{entry.code}</td><td><a href='mailto:#{entry.email}'>#{entry.email}</a></td><td><abbr title='#{entry.people}'>#{entry.people}</abbr></td><td><abbr title='#{entry.message}'>#{entry.message}</abbr></td></tr>")

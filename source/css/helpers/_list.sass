@@ -1,0 +1,52 @@
+table
+  width: 75%
+  table-layout: fixed
+  margin: 2em auto 4em
+
+  tr
+    line-height: 2.5em
+    border-bottom: 1px solid $grayLight
+
+    &:first-child
+      border-width: 3px
+
+    th
+      color: $brown
+      font-weight: bold
+
+    td
+      color: $grayDark
+      overflow: hidden
+      white-space: nowrap
+      text-overflow: ellipsis
+
+      abbr
+        color: inherit
+        font-size: inherit
+        
+      a
+        padding: 0
+        color: $blue
+        font-size: inherit
+        font-family: inherit
+        text-transform: none
+
+        &:before, &:after
+          display: none
+
+        &:hover
+          padding: 0
+          color: lighten($blue, 25%)
+
+      &:first-child
+        color: $gray
+
+    th, td
+      padding: 0 0.5em
+
+      &:first-child
+        width: 3em
+
+      &:nth-child(2)
+        width: 6em
+
