@@ -1,10 +1,5 @@
 $ ->
 
-  dB = new Firebase('https://joeandliz.firebaseIO.com/');
-
-  $('.cover-image').click ->
-    $(@).siblings('iframe').addClass 'playing'
-
   $('#logo > h1').fitText(1.2, {minFontSize: '36px', maxFontSize: '50px'})
   $('#logo > h2').fitText(2.0, {minFontSize: '19px', maxFontSize: '28px'})
 
@@ -13,6 +8,10 @@ $ ->
 
   $('#bridalparty .headshot-icons li').click (e) ->
     $('#bridalparty').attr 'data-showing', $(@).data 'slide'
+
+  # Form Submit
+
+  dB = new Firebase('https://joeandliz.firebaseIO.com/');
 
   $('form').submit (e) ->
     e.preventDefault()
@@ -36,3 +35,12 @@ $ ->
         btn.text('Awesome, Thanks!').addClass('success')
         $('input, textarea, button', 'form').attr('disabled', true)
 
+  # Video Interactions
+
+  $('.cover-image').click ->
+    video = $('iframe')[0]
+    $f(video).api 'play'
+    $(@).addClass 'fading'
+    setTimeout ( ->
+      $('iframe').addClass 'playing'
+    ), 1000

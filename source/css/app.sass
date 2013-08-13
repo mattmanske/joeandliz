@@ -23,6 +23,8 @@ body
     &.no-small
       padding: 28.125% 0
       position: relative
+      background: $grayLight
+      @include box-shadow(inset 0 0 5em rgba($grayDark, 0.25))
 
       .cover-image, iframe
         top: 0
@@ -30,12 +32,17 @@ body
         width: 100%
         height: 100%
         position: absolute
+        @include transition(opacity 1.5s ease-in-out)
 
       .cover-image
+        opacity: 1
         z-index: 500
         background-size: cover
         background-position: center center
         background-image: image-url('joeandliz.jpg')
+
+        &.fading
+          opacity: 0
 
         img
           top: 50%
@@ -55,7 +62,6 @@ body
         opacity: 0
         z-index: 100
         position: absolute
-        @include transition(opacity 1.5s ease-in-out)
 
         &.playing
           opacity: 1
