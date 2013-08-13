@@ -208,6 +208,12 @@
 	},
 	"file_history":
 	[
+		"/Users/Manske/Sites/JoeLizWedding/data/party.yml",
+		"/Users/Manske/Sites/JoeLizWedding/config.rb",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/data/party.json",
+		"/Users/Manske/Sites/JoeLizWedding/data/wedding-party.json",
+		"/Users/Manske/Sites/JoeLizWedding/joeliz.sublime-project",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_list.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
@@ -217,8 +223,6 @@
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_rsvp.sass",
-		"/Users/Manske/Sites/JoeLizWedding/config.rb",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_fonts.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_breakpoint.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_bridal-slider.sass",
@@ -251,7 +255,6 @@
 		"/Users/Manske/Sites/JoeLizWedding/source/index.html.erb",
 		"/Users/Manske/Sites/JoeLizWedding/source/404.html",
 		"/Users/Manske/Sites/JoeLizWedding/source/humans.txt",
-		"/Users/Manske/Sites/JoeLizWedding/joeliz.sublime-project",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_fonts.sass",
 		"/Users/Manske/Sites/Joe-Liz/config.rb",
 		"/Users/Manske/Sites/Joe-Liz/Gemfile",
@@ -332,10 +335,7 @@
 		"/Users/Manske/Sites/Vocora/vocora/partials/modals/error.php.slim",
 		"/Users/Manske/Sites/Vocora/config/wp-config/pagodabox.php",
 		"/Users/Manske/Sites/Vocora/vocora/partials/modals/twitter-email.php.slim",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/hybridauth/Hybrid/Providers/Twitter.php",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/includes/services/wsl.authentication.php",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/hybridauth/Hybrid/Provider_Model_OAuth2.php",
-		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/includes/widgets/wsl.notices.php"
+		"/Users/Manske/Sites/Vocora/plugins/wordpress-social-login/hybridauth/Hybrid/Providers/Twitter.php"
 	],
 	"find":
 	{
@@ -378,6 +378,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rel",
 			", :thumb =>",
 			"circled-logo",
 			"circle-top",
@@ -504,8 +505,7 @@
 			"pass",
 			"invitation",
 			"reveal",
-			"secondary",
-			"lwaAjax"
+			"secondary"
 		],
 		"highlight": true,
 		"in_selection": false,
