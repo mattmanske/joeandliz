@@ -19,12 +19,47 @@ body
     width: 100%
     position: relative
     margin-bottom: 7em
-    background-size: cover
-    background-position: 50% center
 
     &.no-small
       padding: 28.125% 0
-      background-image: image-url('joeandliz.jpg')
+      position: relative
+
+      .cover-image, iframe
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        position: absolute
+
+      .cover-image
+        z-index: 500
+        background-size: cover
+        background-position: center center
+        background-image: image-url('joeandliz.jpg')
+
+        img
+          top: 50%
+          left: 50%
+          width: 120px
+          height: auto
+          opacity: 0.67
+          position: absolute
+          margin: -60px 0 0 -60px
+          @include single-transition()
+
+          &:hover
+            opacity: 1
+            cursor: pointer
+
+      iframe
+        opacity: 0
+        z-index: 100
+        position: absolute
+        @include transition(opacity 1.5s ease-in-out)
+
+        &.playing
+          opacity: 1
+          z-index: 1000
 
     &.only-small
       padding: 8% 0

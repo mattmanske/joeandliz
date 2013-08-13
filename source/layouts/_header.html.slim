@@ -1,10 +1,14 @@
 - if current_page.url == '/'
 
   header.no-small
-    = image_tag("playbutton.png")
+
+    iframe src="http://player.vimeo.com/video/72250638?title=0&byline=0&portrait=0&color=5d594e" frameborder="0" webkitAllowFullScreen="" mozallowfullscreen="" allowFullScreen=""
+
+    .cover-image
+      = image_tag("playbutton.png")
 
   header.only-small
-    a href="" Watch Our Video
+    a href="http://vimeo.com/72250638" Watch Our Video
 
 - else
 

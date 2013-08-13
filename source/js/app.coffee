@@ -2,6 +2,9 @@ $ ->
 
   dB = new Firebase('https://joeandliz.firebaseIO.com/');
 
+  $('.cover-image').click ->
+    $(@).siblings('iframe').addClass 'playing'
+
   $('#logo > h1').fitText(1.2, {minFontSize: '36px', maxFontSize: '50px'})
   $('#logo > h2').fitText(2.0, {minFontSize: '19px', maxFontSize: '28px'})
 
