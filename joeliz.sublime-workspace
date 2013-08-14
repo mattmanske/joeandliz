@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-family"
+			],
+			[
 				"mar",
-				"margin-bottom"
+				"margin-right"
 			],
 			[
 				"padi",
@@ -78,10 +82,6 @@
 			[
 				"border-",
 				"border-bottom"
-			],
-			[
-				"font-",
-				"font-size"
 			],
 			[
 				"border",
@@ -208,12 +208,17 @@
 	},
 	"file_history":
 	[
-		"/Users/Manske/Sites/JoeLizWedding/source/hotels.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
+		"/Users/Manske/Sites/JoeLizWedding/source/list.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_list.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_rsvp.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_rsvp.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_footer.html.slim",
+		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
+		"/Users/Manske/Sites/JoeLizWedding/source/hotels.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
 		"/Users/Manske/Sites/JoeLizWedding/source/js/vendor/froogaloop.js",
 		"/Users/Manske/Sites/JoeLizWedding/source/js/vendor/frogloop.js",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
@@ -225,12 +230,7 @@
 		"/Users/Manske/Sites/JoeLizWedding/data/party.json",
 		"/Users/Manske/Sites/JoeLizWedding/data/wedding-party.json",
 		"/Users/Manske/Sites/JoeLizWedding/joeliz.sublime-project",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_list.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/_globals.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/list.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_rsvp.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_retina.sass",
-		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_rsvp.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_fonts.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_breakpoint.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_bridal-slider.sass",

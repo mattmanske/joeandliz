@@ -22,6 +22,7 @@ $ ->
       email:   $('input[name="email"]').val()
       people:  $('input[name="who"]').val()
       message: $('textarea[name="message"]').val()
+      nodice:  $('input[name="no_dice"]').is(':checked')
     
     btn.text('...sending...').addClass('loading')
     dB.push data, (error) ->

@@ -3,7 +3,7 @@
 form
   margin-top: 2em
 
-  label, input, textarea
+  label, input[type="text"], textarea
     width: 67.7%
     display: block
 
@@ -12,7 +12,13 @@ form
     margin: 0 auto 0.33em
     @extend h5
 
-  input, textarea
+    span
+      font-family: 'ProximaNovaRegular'
+
+      &:last-child
+        font-style: italic
+
+  input[type="text"], textarea
     color: $brown
     font-size: 0.9em
     margin: 0 auto 1.75em
@@ -27,9 +33,14 @@ form
     &[disabled]
       color: lighten($gray, 10%)
 
+  input[type="checkbox"]
+    floar: left
+    margin: 0 0.5em 0.25em 0
+
   button
     color: $white
     border: none
+    margin-top: 1em
     font-size: 1.15em
     background: $gray
     position: relative

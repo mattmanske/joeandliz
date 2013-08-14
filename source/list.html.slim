@@ -13,4 +13,4 @@ coffee:
     count = 0
     for id, entry of snapshot.val()
       count++
-      $('table tbody').append("<tr><td>#{count}</td><td>#{entry.code}</td><td><a href='mailto:#{entry.email}'>#{entry.email}</a></td><td><abbr title='#{entry.people}'>#{entry.people}</abbr></td><td><abbr title='#{entry.message}'>#{entry.message}</abbr></td></tr>")
+      $('table tbody').append("<tr class='coming-#{entry.nodice}'><td>#{count}</td><td>#{entry.code}</td><td><a href='mailto:#{entry.email}'>#{entry.email}</a></td><td><abbr title='#{entry.people}'>#{entry.people}</abbr></td><td><abbr title='#{entry.message}'>#{entry.message}</abbr></td></tr>")
