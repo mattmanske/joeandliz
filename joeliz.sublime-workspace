@@ -119,6 +119,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "source/layouts/layout.slim",
+			"settings":
+			{
+				"buffer_size": 1387,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -208,6 +216,9 @@
 	},
 	"file_history":
 	[
+		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
+		"/Users/Manske/Sites/JoeLizWedding/joeliz.sublime-project",
+		"/Users/Manske/Sites/JoeLizWedding/.gitignore",
 		"/Users/Manske/Sites/JoeLizWedding/source/js/app.coffee",
 		"/Users/Manske/Sites/JoeLizWedding/source/list.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_list.sass",
@@ -218,7 +229,6 @@
 		"/Users/Manske/Sites/JoeLizWedding/source/css/app.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/hotels.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/index.html.slim",
-		"/Users/Manske/Sites/JoeLizWedding/source/layouts/layout.slim",
 		"/Users/Manske/Sites/JoeLizWedding/source/js/vendor/froogaloop.js",
 		"/Users/Manske/Sites/JoeLizWedding/source/js/vendor/frogloop.js",
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_header.html.slim",
@@ -229,7 +239,6 @@
 		"/Users/Manske/Sites/JoeLizWedding/source/layouts/_bridal-slider.html.slim",
 		"/Users/Manske/Sites/JoeLizWedding/data/party.json",
 		"/Users/Manske/Sites/JoeLizWedding/data/wedding-party.json",
-		"/Users/Manske/Sites/JoeLizWedding/joeliz.sublime-project",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_retina.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/helpers/_fonts.sass",
 		"/Users/Manske/Sites/JoeLizWedding/source/css/_breakpoint.sass",
@@ -264,7 +273,6 @@
 		"/Users/Manske/Sites/Joe-Liz/Gemfile",
 		"/Users/Manske/Sites/Joe-Liz/joe-liz.sublime-project",
 		"/Users/Manske/Sites/JoeLizWedding/source/assets/images",
-		"/Users/Manske/Sites/JoeLizWedding/.gitignore",
 		"/Users/Manske/Sites/Society-Style/source/index.html.slim",
 		"/Users/Manske/Sites/Joe-Liz/source/index.html.erb",
 		"/Users/Manske/Sites/Society-Style/build/index.html",
@@ -562,6 +570,34 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "source/layouts/layout.slim",
+					"settings":
+					{
+						"buffer_size": 1387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1225,
+								1225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ruby-slim.tmbundle/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
